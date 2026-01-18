@@ -94,7 +94,7 @@ export default function QuinceaneraInvitation() {
       {currentScene === 7 && <ScheduleScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       
 
-       {showAudioPlayer && <AudioPlayer src="/audio/musica.mp3" autoPlay startTime={10} />} 
+       {showAudioPlayer && <AudioPlayer src="/audio/musica.mp3" autoPlay startTime={2} />} 
 
       <SceneControls
         onPrevious={handlePrevious}
