@@ -236,41 +236,100 @@ export const quinceMainData = {
     images: [
       {
         id: "image1",
-        src: "/images/nicoleMichel05.jpeg",
+        src: "/images/nicole01.jpeg",
         alt: "Guadalupe Greys en sus XV años",
         caption: "",
       },
       {
         id: "image2",
-        src: "/images/nicoleMichel02.png",
+        src: "/images/nicole02.jpeg",
         alt: "Baile de Quinceañera",
         caption: "",
       },
       {
         id: "image3",
-        src: "/images/nicoleMichel06.jpeg",
+        src: "/images/nicole03.jpeg",
         alt: "Corte de Pastel",
         caption: "",
       },
       {
         id: "image4",
-        src: "/images/nicoleMichel03.png",
+        src: "/images/nicole04.jpeg",
         alt: "Celebración con Familia y Amigos",
         caption: "",
       },
       {
         id: "image5",
-        src: "/images/nicoleMichel07.jpeg",
+        src: "/images/nicole05.jpeg",
         alt: "Detalles del Evento",
         caption: "",
       },
       {
         id: "image6",
-        src: "/images/nicoleMichel04.png",
+        src: "/images/nicole06.jpeg",
         alt: "Diversión en la Pista de Baile",
         caption: "",
       },
-      
+      {
+        id: "image7",
+        src: "/images/nicole07.jpeg",
+        alt: "Momentos Especiales",
+        caption: "",
+      },
+      {
+        id: "image8",
+        src: "/images/nicole08.jpeg",
+        alt: "Recuerdos Inolvidables",
+        caption: "",
+      },
+      {
+        id: "image9",
+        src: "/images/nicole09.jpeg",
+        alt: "Fiesta y Alegría",
+        caption: "",
+      },
+      {
+        id: "image10",
+        src: "/images/nicole10.jpeg",
+        alt: "Celebrando con Amor",
+        caption: "",
+      },
+      {
+        id: "image11",
+        src: "/images/nicole11.jpeg",
+        alt: "Quinceañera Radiante",
+        caption: "",
+      },
+      {
+        id: "image12",
+        src: "/images/nicole12.jpeg",
+        alt: "Noche de Ensueño",
+        caption: "",
+      },
+      {
+        id: "image13",
+        src: "/images/nicole13.jpeg",
+        alt: "Amigos y Familia",
+        caption: "",
+      },
+      {
+        id: "image14",
+        src: "/images/nicole14.jpeg",
+        alt: "Celebración Inolvidable",
+        caption: "",
+      },
+      {
+        id: "image15",
+        src: "/images/nicole15.jpeg",
+        alt: "Quinceañera y sus Seres Queridos",
+        caption: "",
+      },
+      {
+        id: "image16",
+        src: "/images/nicole16.jpeg",
+        alt: "Magia y Alegría",
+        caption: "",
+      }
     ],
     imagesUrls: [
       "/images/rapunzel1.jpeg",
