@@ -24,7 +24,7 @@ export function MessageScene1({ onComplete, isActive }: MessageScene1Props) {
   const message = `
   Con el corazón lleno de gratitud, doy gracias a la vida por cada experiencia, 
   cada sonrisa y cada aprendizaje que me ha regalado en estos años.
-  Hoy celebro medio siglo de momentos inolvidables, de amor, de fuerza y de esperanza.
+  Hoy celebro 18 años de momentos inolvidables, de amor, de fuerza y de esperanza.
   Recibo esta nueva etapa con alegría, fe y serenidad, agradeciendo a Dios por permitirme 
   seguir soñando y disfrutar de todo lo bello que aún está por venir. 🌷
   `

@@ -6,6 +6,8 @@ import { TitleScene } from "@/components/scenes/title-scene"
 import { MessageScene1 } from "@/components/scenes/message-scene-1"
 import { MessageScene2 } from "@/components/scenes/message-scene-2"
 import { NameScene } from "@/components/scenes/name-scene"
+import { PadresScene } from "@/components/scenes/padres-scene"
+import { PadrinosScene } from "@/components/scenes/padrinos-scene"
 import { MessageScene3 } from "@/components/scenes/message-scene-3"
 import { ParentsScene } from "@/components/scenes/parents-scene"
 import { FiestaScene } from "@/components/scenes/fiesta-scene"
@@ -28,10 +30,10 @@ export default function QuinceaneraInvitation() {
   const [isPaused, setIsPaused] = useState(false)
   const [showAudioPlayer, setShowAudioPlayer] = useState(false)
 
-  const totalScenes = 9
+  const totalScenes = 11
 
   // Scenes that have their own timing control (no auto-advance)
-  const scenesWithCustomTiming = [0, 1, 2, 3, 4, 5, 6, 7] // TitleScene, MessageScene1, MessageScene2, NameScene, MessageScene3, ParentsScene, ReceptionScene, ScheduleScene, FiestaScene
+  const scenesWithCustomTiming = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] // TitleScene, MessageScene1, MessageScene2, NameScene, MessageScene3, ParentsScene, ReceptionScene, ScheduleScene, FiestaScene
 
   useEffect(() => {
     if (!hasStarted || isPaused || currentScene >= totalScenes - 1) return
@@ -85,13 +87,15 @@ export default function QuinceaneraInvitation() {
     <div className="relative w-full h-screen overflow-hidden">
       {currentScene === 0 && <TitleScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 1 && <MessageScene1 onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 2 && <NameScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 3 && <ParentsScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 4 && <FiestaScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {/*currentScene === 5 && <DateScene onComplete={handleSceneComplete} isActive={!isPaused} />*/}
-      {currentScene === 5 && <ReceptionScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 6 && <GalleryScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 7 && <ScheduleScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 2 && <PadresScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 3 && <PadrinosScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 4 && <NameScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 5 && <ParentsScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 6 && <FiestaScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {/*currentScene === 7 && <DateScene onComplete={handleSceneComplete} isActive={!isPaused} />*/}
+      {currentScene === 7 && <ReceptionScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 8 && <GalleryScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 9 && <ScheduleScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       
 
        {showAudioPlayer && <AudioPlayer src="/audio/musica.mp3" autoPlay startTime={2} />} 

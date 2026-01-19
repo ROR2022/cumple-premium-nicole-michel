@@ -1,5 +1,6 @@
 /**
  * Nicole Michel
+
 Padres
 Eduardo Ramirez Sanchez Areli Natali Fragoso Benitez
 
@@ -404,5 +405,15 @@ export const quinceMainData = {
       src: "/video/nicole03.mp4",
       type: "video/mp4",
     },
+    padres:{
+      id: "padres",
+      src: "/video/nicole02.mp4",
+      type: "video/mp4",
+    },
+    padrinos:{
+      id: "padrinos",
+      src: "/video/nicole03.mp4",
+      type: "video/mp4",
+    }
   }
 };
