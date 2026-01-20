@@ -179,7 +179,7 @@ export const quinceMainData = {
     backgroundImage: "/images/countdown-bg.jpg",
   },
   attendance: {
-    whatsappNumber: "5217772674493", //+52 1 777 267 4493
+    whatsappNumber: "5215634166016", //+52 1 56 3416 6016
     title: "CONFIRMACIÓN DE ASISTENCIA",
     message: "Respetuosamente",
     subtitle: "Confirmar antes del evento.",
