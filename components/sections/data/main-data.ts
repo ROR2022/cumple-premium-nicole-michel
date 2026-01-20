@@ -235,69 +235,15 @@ export const quinceMainData = {
       "Cada imagen captura la esencia de este día tan especial. ¡Gracias por ser parte de estos recuerdos inolvidables!",
     images: [
       {
-        id: "image1",
-        src: "/images/nicole01.jpeg",
-        alt: "Guadalupe Greys en sus XV años",
-        caption: "",
-      },
-      {
         id: "image2",
         src: "/images/nicole02.jpeg",
         alt: "Baile de Quinceañera",
         caption: "",
       },
       {
-        id: "image3",
-        src: "/images/nicole03.jpeg",
-        alt: "Corte de Pastel",
-        caption: "",
-      },
-      {
-        id: "image4",
-        src: "/images/nicole04.jpeg",
-        alt: "Celebración con Familia y Amigos",
-        caption: "",
-      },
-      {
-        id: "image5",
-        src: "/images/nicole05.jpeg",
-        alt: "Detalles del Evento",
-        caption: "",
-      },
-      {
         id: "image6",
         src: "/images/nicole06.jpeg",
         alt: "Diversión en la Pista de Baile",
-        caption: "",
-      },
-      {
-        id: "image7",
-        src: "/images/nicole07.jpeg",
-        alt: "Momentos Especiales",
-        caption: "",
-      },
-      {
-        id: "image8",
-        src: "/images/nicole08.jpeg",
-        alt: "Recuerdos Inolvidables",
-        caption: "",
-      },
-      {
-        id: "image9",
-        src: "/images/nicole09.jpeg",
-        alt: "Fiesta y Alegría",
-        caption: "",
-      },
-      {
-        id: "image10",
-        src: "/images/nicole10.jpeg",
-        alt: "Celebrando con Amor",
-        caption: "",
-      },
-      {
-        id: "image11",
-        src: "/images/nicole11.jpeg",
-        alt: "Quinceañera Radiante",
         caption: "",
       },
       {
